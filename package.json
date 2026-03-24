@@ -1,0 +1,31 @@
+{
+  "name": "numcpp",
+  "version": "1.0.0",
+  "description": "A comprehensive numerical computation library for TypeScript/JavaScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/examples/test_examples.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "numerical",
+    "computation",
+    "linear-algebra",
+    "integration",
+    "ode",
+    "interpolation",
+    "special-functions"
+  ],
+  "author": "NumCpp Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
